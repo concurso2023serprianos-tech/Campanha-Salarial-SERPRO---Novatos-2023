@@ -1,0 +1,68 @@
+{
+  "_comentario": "Links úteis, grupos e documentos. Substitua os placeholders SEU_... pelos links reais antes de publicar.",
+
+  "titulo": "Links, grupos e documentos",
+  "blocos": [
+    {
+      "tipo": "hero",
+      "chapeu": "Onde a conversa acontece",
+      "titulo": "Grupos, entidades e fontes oficiais",
+      "texto": "Canais de mobilização, entidades representativas e a documentação primária da campanha."
+    },
+    {
+      "tipo": "linkgroups",
+      "grupos": [
+        {
+          "titulo": "💬 Grupos de mobilização",
+          "descricao": "Entre, se apresente e traga sua equipe.",
+          "links": [
+            { "texto": "WhatsApp — Novatos 2023 (geral)", "href": "https://chat.whatsapp.com/SEU_CONVITE", "detalhe": "Grupo principal da turma do concurso de 2023" },
+            { "texto": "Telegram — Canal de informes", "href": "https://t.me/SEU_CANAL", "detalhe": "Somente avisos, sem conversa" },
+            { "texto": "WhatsApp — Regional (por unidade)", "href": "https://chat.whatsapp.com/SEU_CONVITE_REGIONAL", "detalhe": "Organização por localidade" }
+          ]
+        },
+        {
+          "titulo": "🏛️ Entidades representativas",
+          "descricao": "Confirme qual sindicato representa a sua base territorial.",
+          "links": [
+            { "texto": "FENADADOS — Federação Nacional dos Trabalhadores em Empresas de Processamento de Dados", "href": "https://fenadados.org.br/", "detalhe": "Entidade que assina os ACTs nacionais do SERPRO" },
+            { "texto": "Encontre o sindicato da sua base", "href": "https://fenadados.org.br/", "detalhe": "Sindicatos filiados por estado/região" }
+          ]
+        },
+        {
+          "titulo": "📄 Documentos oficiais",
+          "descricao": "Fonte primária de tudo que é afirmado neste site.",
+          "links": [
+            { "texto": "Portal da Transparência do SERPRO — ACTs", "href": "https://www.transparencia.serpro.gov.br/acesso-a-informacao/servidores/acordo-coletivo-de-trabalho-act", "detalhe": "Todos os acordos coletivos publicados" },
+            { "texto": "Portal da Transparência do SERPRO — remuneração da diretoria", "href": "https://www.transparencia.serpro.gov.br/", "detalhe": "Série usada na comparação empregados x diretoria" },
+            { "texto": "SERPRO — site institucional", "href": "https://www.serpro.gov.br/", "detalhe": "Informações corporativas e notícias" }
+          ]
+        },
+        {
+          "titulo": "📊 Dados e índices",
+          "descricao": "Para quem quiser refazer as contas.",
+          "links": [
+            { "texto": "IBGE — IPCA e INPC", "href": "https://www.ibge.gov.br/estatisticas/economicas/precos-e-custos.html", "detalhe": "Séries oficiais de inflação" },
+            { "texto": "IPEA Data", "href": "http://www.ipeadata.gov.br/", "detalhe": "Séries históricas consolidadas do SNIPC" },
+            { "texto": "DIEESE — cesta básica", "href": "https://www.dieese.org.br/analisecestabasica/analiseCestaBasica.html", "detalhe": "Preço mensal da cesta básica por capital" }
+          ]
+        },
+        {
+          "titulo": "📥 Material para compartilhar",
+          "descricao": "Baixe, imprima, cole no mural, poste no grupo.",
+          "links": [
+            { "texto": "Pauta da campanha (página web)", "href": "pauta.html", "detalhe": "Versão sempre atualizada" },
+            { "texto": "Estudo salarial completo", "href": "estudo.html", "detalhe": "Dados, gráficos e metodologia" },
+            { "texto": "Comparativo de direitos", "href": "direitos.html", "detalhe": "Antes x depois dos cortes" }
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "aviso",
+      "estilo": "info",
+      "titulo": "Quer sugerir um link?",
+      "texto": "Se você conhece um grupo, entidade ou documento que deveria estar nesta lista, envie pelo formulário da página Participe."
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "_comentario": "Informes e boletins. Para publicar um novo, adicione um item no topo da lista 'itens'.",
+
+  "titulo": "Informes da campanha",
+  "blocos": [
+    {
+      "tipo": "hero",
+      "chapeu": "Boletins",
+      "titulo": "Acompanhe a negociação",
+      "texto": "Todos os informes publicados pela organização da campanha, do mais recente ao mais antigo."
+    },
+    {
+      "tipo": "informes",
+      "itens": [
+        {
+          "data": "2026-09-30",
+          "titulo": "Portal da campanha no ar",
+          "resumo": "Lançamos o site central da campanha salarial, com o estudo de reajustes x inflação, o comparativo de direitos dos novos empregados e a pré-pauta em sete eixos.",
+          "tags": ["campanha", "pauta"],
+          "corpo": [
+            "O portal reúne, em um único endereço, tudo o que é necessário para acompanhar e participar da campanha salarial: os dados que sustentam a reivindicação, o mapa dos direitos suprimidos para quem entrou depois dos cortes, o calendário de assembleias e os canais de contato.",
+            "Todo o conteúdo é livre para reprodução com indicação da fonte. Compartilhe com sua equipe."
+          ]
+        },
+        {
+          "data": "2026-08-27",
+          "titulo": "Estudo 2018–2026: defasagem de 26,43 pontos frente aos alimentos",
+          "resumo": "A revisão do estudo confirma: os reajustes acumularam 43,97% enquanto a comida subiu 70,4% entre 2018 e 2025.",
+          "tags": ["estudo", "salário"],
+          "corpo": [
+            "A atualização do estudo consolidou as séries de reajustes dos ACTs e de inflação do grupo Alimentação e Bebidas para o período 2018–2025.",
+            "O resultado é uma defasagem de 26,43 pontos de índice, equivalente a uma queda de aproximadamente 15,5% na capacidade de compra de alimentos."
+          ],
+          "link": { "texto": "Ver o estudo completo", "href": "estudo.html" }
+        }
+      ]
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Receba os informes por e-mail",
+      "texto": "Cadastre-se e não perca convocação de assembleia nem atualização da mesa de negociação.",
+      "acoes": [
+        { "texto": "Cadastrar e-mail", "href": "participe.html", "estilo": "primario" }
+      ]
+    }
+  ]
+}

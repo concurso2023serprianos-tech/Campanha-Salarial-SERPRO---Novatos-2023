@@ -1,0 +1,152 @@
+{
+  "_comentario": "Comparativo de direitos. IMPORTANTE: preencha o campo 'fonte' de cada linha com a cláusula e o ACT correspondente antes de divulgar. Itens com 'verificar': true aparecem com selo de 'a confirmar'.",
+
+  "titulo": "O que os novatos perderam",
+  "blocos": [
+    {
+      "tipo": "hero",
+      "chapeu": "Isonomia",
+      "titulo": "Mesmo crachá, contratos diferentes",
+      "texto": "Ao longo dos anos, cláusulas de ACT e mudanças de regulamento interno criaram **duas categorias de empregados** no SERPRO: quem entrou antes de determinados cortes e quem entrou depois. Esta página organiza essas diferenças para que a negociação parta de fatos, não de impressões."
+    },
+    {
+      "tipo": "aviso",
+      "estilo": "atencao",
+      "titulo": "Como usar esta página",
+      "texto": "Cada linha da tabela deve ser sustentada pela cláusula do ACT, pelo regulamento de pessoal ou pela norma interna que produziu a diferença. Antes de divulgar, confirme a fonte de cada item e registre-a no arquivo `content/direitos.json`. Itens ainda não confirmados aparecem marcados como **a confirmar**."
+    },
+    {
+      "tipo": "table",
+      "titulo": "Comparativo: antes x depois",
+      "colunas": ["Direito / benefício", "Quem entrou antes", "Quem entrou depois", "Impacto no novato", "Fonte"],
+      "linhas": [
+        {
+          "celulas": [
+            "**Anuênio** (adicional por tempo de serviço)",
+            "Percentual incorporado ao salário a cada ano de casa",
+            "Não concedido aos admitidos após o corte da cláusula",
+            "Perda permanente de crescimento salarial vegetativo ao longo de toda a carreira",
+            "ACT — cláusula de adicional por tempo de serviço"
+          ],
+          "verificar": true
+        },
+        {
+          "celulas": [
+            "**Quinquênio / adicional por quinquênio**",
+            "Adicional a cada cinco anos de serviço",
+            "Suprimido para novos admitidos",
+            "Remuneração estagnada em relação a colegas com mesma função e mesmo tempo de casa futuro",
+            "ACT — cláusula de adicionais por tempo de serviço"
+          ],
+          "verificar": true
+        },
+        {
+          "celulas": [
+            "**Licença-prêmio**",
+            "Período de licença remunerada a cada ciclo de anos trabalhados",
+            "Extinta para quem entrou depois",
+            "Perda de descanso remunerado e de um mecanismo de recomposição de saúde ao longo da carreira",
+            "Regulamento de pessoal / ACT"
+          ],
+          "verificar": true
+        },
+        {
+          "celulas": [
+            "**GFE — gratificação de função**",
+            "Valor reajustado junto com a tabela salarial",
+            "Valores congelados ou com reajuste dissociado da tabela",
+            "Perda real acumulada na parcela variável; desincentivo à assunção de funções",
+            "ACT — cláusula de gratificações"
+          ],
+          "verificar": true
+        },
+        {
+          "celulas": [
+            "**Plano de carreira e progressão**",
+            "Degraus mais curtos e progressão por tempo mais previsível",
+            "Progressão lenta, dependente de avaliação e de disponibilidade orçamentária",
+            "Salário inicial baixo frente ao mercado e horizonte longo até o topo da faixa",
+            "PCCS / regulamento de carreira vigente"
+          ],
+          "verificar": true
+        },
+        {
+          "celulas": [
+            "**Salário de admissão**",
+            "Tabela de ingresso proporcionalmente mais alta no histórico da empresa",
+            "Ingresso em degrau inicial achatado em relação ao mercado de TI",
+            "Rotatividade alta e perda de profissionais formados dentro da casa",
+            "Edital do concurso 2023 e tabela salarial do ACT vigente"
+          ],
+          "verificar": true
+        },
+        {
+          "celulas": [
+            "**Auxílio-creche / escolar**",
+            "Mesma regra para todos, mas com limite etário restrito",
+            "Mesma regra, com limite etário restrito",
+            "Benefício se encerra quando o custo com educação ainda é alto",
+            "ACT — cláusula de auxílio creche/escolar"
+          ],
+          "verificar": true
+        },
+        {
+          "celulas": [
+            "**Regime de trabalho remoto**",
+            "Contratação predominantemente presencial, com vínculo territorial já consolidado",
+            "Contratação e mudança de vida organizadas em torno do remoto, sem garantia formal",
+            "Risco de alteração unilateral com impacto financeiro e familiar severo",
+            "Norma interna de teletrabalho"
+          ],
+          "verificar": true
+        }
+      ],
+      "rodape": "Preencha e confirme a coluna Fonte com a cláusula exata antes de usar este material em negociação."
+    },
+    {
+      "tipo": "cards",
+      "titulo": "O efeito combinado",
+      "itens": [
+        {
+          "icone": "📉",
+          "titulo": "Curva salarial achatada",
+          "texto": "Sem anuênio e sem quinquênio, o único caminho de crescimento é a progressão do plano de carreira — que é lenta e condicionada. O resultado é uma remuneração quase plana ao longo de anos."
+        },
+        {
+          "icone": "🏃",
+          "titulo": "Rotatividade e perda de talento",
+          "texto": "Profissionais formados e certificados dentro da empresa saem para o mercado privado. A empresa paga o custo do concurso, do onboarding e da capacitação, e perde o retorno."
+        },
+        {
+          "icone": "🧾",
+          "titulo": "Perda dupla",
+          "texto": "Além dos direitos suprimidos, os novatos herdaram a defasagem salarial acumulada nos ACTs de 2018 a 2025 — sem terem participado das negociações que a produziram."
+        },
+        {
+          "icone": "🤝",
+          "titulo": "Não é novo contra antigo",
+          "texto": "A pauta não propõe retirar direito de ninguém. Propõe estender aos novos o que foi suprimido, ou compensar com um plano de carreira que funcione de fato."
+        }
+      ]
+    },
+    {
+      "tipo": "richtext",
+      "titulo": "O que pedimos concretamente",
+      "bullets": [
+        "Restabelecimento do anuênio e da licença-prêmio para todos os empregados, sem data de corte.",
+        "Descongelamento e recomposição da GFE, com reajuste vinculado à tabela salarial.",
+        "Novo plano de carreira, com degraus curtos, progressão automática por tempo e critérios objetivos de mérito.",
+        "Revisão da tabela de ingresso, com referência ao mercado de TI e ao custo de retenção.",
+        "Cláusula de não retrocesso: nenhum direito novo pode nascer com data de corte que crie nova categoria de empregado."
+      ]
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Faltou algum direito nesta lista?",
+      "texto": "Conhece uma cláusula, norma ou benefício que mudou para quem entrou depois? Envie a referência para incluirmos aqui.",
+      "acoes": [
+        { "texto": "Enviar contribuição", "href": "participe.html", "estilo": "primario" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "_comentario": "Página de cadastro e contato. O formulário é configurado em site.json (bloco 'cadastro').",
+
+  "titulo": "Participe",
+  "blocos": [
+    {
+      "tipo": "hero",
+      "chapeu": "Mobilização",
+      "titulo": "Entre na campanha",
+      "texto": "Cadastre seu e-mail para receber convocações de assembleia, boletins e atualizações da negociação. Leva menos de um minuto."
+    },
+    {
+      "tipo": "form",
+      "titulo": "Cadastro para receber informes",
+      "descricao": "Preencha o formulário abaixo. Você pode pedir a remoção a qualquer momento."
+    },
+    {
+      "tipo": "cards",
+      "titulo": "Outras formas de contribuir",
+      "itens": [
+        {
+          "icone": "✍️",
+          "titulo": "Enviar emenda à pauta",
+          "texto": "Tem uma reivindicação que não está contemplada? Escreva de forma objetiva e envie — ela entra na pauta de discussão da assembleia."
+        },
+        {
+          "icone": "📑",
+          "titulo": "Contribuir com fontes",
+          "texto": "Conhece a cláusula exata que suprimiu um direito? Envie a referência (ACT, ano, número da cláusula) para fortalecer o comparativo."
+        },
+        {
+          "icone": "📣",
+          "titulo": "Ser referência na sua unidade",
+          "texto": "Cada unidade e cada squad precisa de alguém que circule as informações e organize a participação nas assembleias."
+        },
+        {
+          "icone": "🔁",
+          "titulo": "Compartilhar",
+          "texto": "Mande o link deste site para quem entrou junto com você. Nossa força está na unidade."
+        }
+      ]
+    },
+    {
+      "tipo": "contatos",
+      "titulo": "Fale com a organização da campanha"
+    },
+    {
+      "tipo": "aviso",
+      "estilo": "info",
+      "titulo": "Privacidade",
+      "texto": "Os dados informados são usados exclusivamente para o envio de informes da campanha salarial. Não há compartilhamento com terceiros e a remoção pode ser solicitada a qualquer momento."
+    }
+  ]
+}

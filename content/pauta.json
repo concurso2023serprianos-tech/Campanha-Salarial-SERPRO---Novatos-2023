@@ -1,0 +1,150 @@
+{
+  "_comentario": "Pauta da campanha. Para incluir um novo eixo, copie um item de 'itens' dentro do bloco tipo 'accordion' e edite.",
+
+  "titulo": "Pauta da Campanha Salarial",
+  "blocos": [
+    {
+      "tipo": "hero",
+      "chapeu": "📢 Pré-pauta em construção coletiva",
+      "titulo": "Nossa pauta é por isonomia, reparação e valorização",
+      "texto": "Sete eixos de reivindicação para o próximo Acordo Coletivo de Trabalho. Este texto é **pré-pauta**: ele será debatido, emendado e aprovado em assembleia. Contribua enviando sua sugestão.",
+      "acoes": [
+        { "texto": "Enviar sugestão de pauta", "href": "participe.html", "estilo": "primario" },
+        { "texto": "Baixar versão para compartilhar", "href": "pauta.html#compartilhar", "estilo": "secundario" }
+      ]
+    },
+    {
+      "tipo": "accordion",
+      "titulo": "Os sete eixos",
+      "abrirPrimeiro": true,
+      "itens": [
+        {
+          "numero": "1",
+          "titulo": "Recomposição do poder de compra e valorização do tíquete",
+          "paragrafos": [
+            "Entre 2018 e 2025, os reajustes salariais permanentes previstos nos ACTs do SERPRO acumularam **43,97%**, enquanto os preços de Alimentação e Bebidas avançaram aproximadamente **70,4%**.",
+            "Isso representa uma diferença de **26,43 pontos de índice** e uma redução aproximada de **15,5%** na capacidade de compra de alimentos.",
+            "O maior impacto ocorreu em **2020**, quando não houve reajuste salarial na data-base e os preços da alimentação subiram fortemente. Os reajustes posteriores promoveram recuperação parcial, mas não eliminaram a defasagem acumulada."
+          ],
+          "reivindicacoes": [
+            "Mecanismo permanente de recomposição do poder de compra.",
+            "Reajuste diferenciado do tíquete, conforme o custo real da alimentação.",
+            "Acompanhamento do preço da cesta básica e das refeições.",
+            "Fim do desconto do empregado sobre o tíquete."
+          ],
+          "frase": "Alimentação é necessidade básica. O tíquete precisa acompanhar o preço dos alimentos, e não apenas a inflação média da economia.",
+          "link": { "texto": "Ver o estudo que embasa este eixo", "href": "estudo.html" }
+        },
+        {
+          "numero": "2",
+          "titulo": "Isonomia para os novos empregados",
+          "paragrafos": [
+            "Defendemos o fim das cláusulas que retiraram dos novos empregados direitos históricos, como **anuênio** e **licença-prêmio**.",
+            "Trabalhadores que exercem funções equivalentes devem ter direitos equivalentes."
+          ],
+          "reivindicacoes": [
+            "Restabelecimento dos direitos suprimidos para quem entrou após os cortes.",
+            "Se o restabelecimento não for imediato: novo plano de carreira com remuneração inicial justa.",
+            "Progressão efetiva, com critérios objetivos e periodicidade garantida.",
+            "Valorização profissional e condições para retenção de talentos."
+          ],
+          "frase": "Não aceitaremos empregados de primeira e de segunda categoria.",
+          "link": { "texto": "Ver o comparativo de direitos", "href": "direitos.html" }
+        },
+        {
+          "numero": "3",
+          "titulo": "Auxílio-creche e escolar até os 18 anos",
+          "paragrafos": [
+            "Reivindicamos a ampliação do auxílio-creche e escolar para filhos e dependentes até os **18 anos**.",
+            "A educação não termina na primeira infância. O benefício precisa acompanhar as necessidades reais das famílias."
+          ],
+          "reivindicacoes": [
+            "Extensão da cobertura do auxílio até os 18 anos completos.",
+            "Correção do valor do benefício pelo custo real de creche e escola.",
+            "Manutenção do benefício para dependentes com deficiência sem limite de idade."
+          ]
+        },
+        {
+          "numero": "4",
+          "titulo": "Equidade para PCDs e responsáveis por pessoas com deficiência",
+          "paragrafos": [
+            "Defendemos condições adequadas de trabalho para empregados com deficiência e para aqueles responsáveis por pessoas que necessitam de cuidados permanentes, incluindo pessoas com **TEA**, **síndrome de Down** e outras condições."
+          ],
+          "reivindicacoes": [
+            "Proteção institucional e não discriminação.",
+            "Flexibilidade de jornada e de regime de trabalho.",
+            "Condições efetivas para conciliar trabalho e cuidado.",
+            "Acessibilidade real nas unidades e nas ferramentas de trabalho."
+          ],
+          "frase": "Não é privilégio. É equidade, dignidade e inclusão."
+        },
+        {
+          "numero": "5",
+          "titulo": "Trabalho remoto com direito e segurança",
+          "paragrafos": [
+            "O trabalho remoto precisa ter **regras claras, critérios objetivos e previsibilidade**.",
+            "Mudanças unilaterais podem gerar deslocamentos, custos e graves impactos familiares, especialmente para quem foi contratado ou organizou sua vida para trabalhar remotamente."
+          ],
+          "reivindicacoes": [
+            "Proteção contra mudanças unilaterais do regime de trabalho.",
+            "Critérios objetivos e prazo mínimo de aviso para alteração de regime.",
+            "Respeito à organização familiar e à residência do empregado.",
+            "Segurança para quem mora longe das unidades regionais."
+          ],
+          "frase": "Trabalho remoto não pode ser sinônimo de insegurança permanente."
+        },
+        {
+          "numero": "6",
+          "titulo": "Anistiados: reparação de uma injustiça histórica",
+          "paragrafos": [
+            "A readmissão devolveu o emprego, mas não corrigiu todas as distorções salariais e funcionais sofridas pelos empregados anistiados.",
+            "Reivindicamos uma reparação efetiva das injustiças produzidas após o retorno ao SERPRO."
+          ],
+          "reivindicacoes": [
+            "Revisão do enquadramento salarial e funcional dos anistiados.",
+            "Correção das distorções de carreira geradas pelo período de afastamento.",
+            "Tratamento isonômico em progressões e benefícios."
+          ],
+          "frase": "Readmissão não é reparação. Recuperar o emprego não apaga os prejuízos sofridos."
+        },
+        {
+          "numero": "7",
+          "titulo": "Isonomia e proteção para os PSEs",
+          "paragrafos": [
+            "Os empregados lotados em postos de serviço externos devem ter os mesmos direitos, proteção institucional e valorização dos demais empregados do SERPRO."
+          ],
+          "reivindicacoes": [
+            "Proteção contra a dupla subordinação.",
+            "Segurança diante de decisões dos clientes.",
+            "Garantia de que nenhum empregado seja ameaçado de retorno ou desligamento por decisão externa.",
+            "PLR isonômica, sem redução ou tratamento diferenciado."
+          ],
+          "frase": "PSE não é empregado de segunda classe."
+        }
+      ]
+    },
+    {
+      "tipo": "richtext",
+      "id": "resumo",
+      "titulo": "📣 Nossa pauta é clara",
+      "bullets": [
+        "Trabalho igual, direitos iguais.",
+        "Responsabilidades iguais, reconhecimento igual.",
+        "Nenhum empregado deixado para trás."
+      ],
+      "paragrafos": [
+        "Não queremos privilégios. Queremos **direitos, respeito, segurança, valorização e condições justas de trabalho**."
+      ]
+    },
+    {
+      "tipo": "cta",
+      "id": "compartilhar",
+      "titulo": "✊ Trabalho igual. Direitos iguais. Respeito igual.",
+      "texto": "Compartilhe esta pauta com todos os empregados do SERPRO. Nossa força está na unidade!",
+      "compartilhar": true,
+      "acoes": [
+        { "texto": "Enviar emenda à pauta", "href": "participe.html", "estilo": "primario" }
+      ]
+    }
+  ]
+}

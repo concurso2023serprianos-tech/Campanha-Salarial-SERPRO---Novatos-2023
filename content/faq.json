@@ -1,0 +1,73 @@
+{
+  "_comentario": "Perguntas frequentes. Adicione itens no bloco 'accordion'.",
+
+  "titulo": "Dúvidas frequentes",
+  "blocos": [
+    {
+      "tipo": "hero",
+      "chapeu": "FAQ",
+      "titulo": "Perguntas frequentes sobre a campanha",
+      "texto": "Se a sua dúvida não estiver aqui, envie pelo formulário da página Participe."
+    },
+    {
+      "tipo": "accordion",
+      "itens": [
+        {
+          "titulo": "O que é o ACT e por que ele importa?",
+          "paragrafos": [
+            "O Acordo Coletivo de Trabalho é o instrumento que define reajuste salarial, benefícios, jornada, regime de trabalho e garantias dos empregados do SERPRO por um período determinado.",
+            "Tudo o que não está no ACT pode ser alterado unilateralmente pela empresa. Por isso a pauta e a assembleia importam: é ali que se decide o que vira cláusula."
+          ]
+        },
+        {
+          "titulo": "Qual é a data-base?",
+          "paragrafos": [
+            "A data-base do SERPRO é **1º de maio**. Os reajustes pactuados têm efeitos a partir dessa data, e a negociação normalmente se desenrola nos meses anteriores."
+          ]
+        },
+        {
+          "titulo": "O reajuste de 2026 já está garantido?",
+          "paragrafos": [
+            "Sim. O ACT 2025/2027 já previu **5,1096%** a partir de maio de 2026 (4,1096% de INPC acumulado de maio/2025 a abril/2026 mais 1% de ganho real).",
+            "Por isso a campanha atual mira o ciclo seguinte, com foco em recomposição estrutural, isonomia e plano de carreira."
+          ]
+        },
+        {
+          "titulo": "Por que comparar com a inflação de alimentos e não com o IPCA geral?",
+          "paragrafos": [
+            "Porque alimentação é a despesa que mais pesa no orçamento de quem ganha menos, e é onde a perda de poder de compra aparece primeiro.",
+            "O estudo apresenta os dois índices lado a lado. O IPCA geral também está na tabela, para quem quiser comparar."
+          ]
+        },
+        {
+          "titulo": "Preciso ser sindicalizado para participar?",
+          "paragrafos": [
+            "Para participar da mobilização, dos grupos e das discussões da pauta, não. Para votar em assembleia, valem as regras estatutárias da entidade que convoca — confira na convocação.",
+            "A sindicalização fortalece a representação na mesa de negociação e é uma decisão individual."
+          ]
+        },
+        {
+          "titulo": "Esta campanha é contra os empregados mais antigos?",
+          "paragrafos": [
+            "Não. A pauta é explicitamente de **não retrocesso**: nenhum direito de quem já tem deve ser retirado.",
+            "O que pedimos é que os direitos suprimidos por cláusulas com data de corte sejam estendidos a todos, ou compensados por um plano de carreira que funcione."
+          ]
+        },
+        {
+          "titulo": "Como meus dados são usados?",
+          "paragrafos": [
+            "O e-mail cadastrado é usado exclusivamente para o envio de informes da campanha. Não há compartilhamento com terceiros.",
+            "Você pode pedir a remoção a qualquer momento respondendo a qualquer informe ou escrevendo para o e-mail da campanha."
+          ]
+        },
+        {
+          "titulo": "Este site é oficial da empresa ou do sindicato?",
+          "paragrafos": [
+            "Não. É um site mantido por empregados, com finalidade informativa e de mobilização. Ele não substitui a comunicação oficial da empresa nem os canais formais das entidades sindicais.",
+            "Todas as afirmações de dados têm fonte primária indicada."
+          ]
+        }
+      ]
+    }
+  ]
+}

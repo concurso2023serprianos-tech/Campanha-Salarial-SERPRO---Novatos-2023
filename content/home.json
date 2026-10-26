@@ -1,0 +1,102 @@
+{
+  "_comentario": "Página inicial. Cada item de 'blocos' vira uma seção. Tipos disponíveis: hero, stats, richtext, cards, table, timeline, accordion, image, linkgroups, agenda, cta, form.",
+
+  "titulo": "Início",
+  "blocos": [
+    {
+      "tipo": "hero",
+      "chapeu": "Campanha Salarial • ACT SERPRO",
+      "titulo": "Trabalho igual. Direitos iguais. Respeito igual.",
+      "texto": "Somos os empregados admitidos pelo concurso de 2023 — e todos os que entraram depois dos cortes. Entramos para fazer o mesmo trabalho, com as mesmas responsabilidades, e recebemos menos direitos. Esta campanha é por **isonomia, reparação e valorização**.",
+      "acoes": [
+        { "texto": "Cadastre-se para receber informes", "href": "participe.html", "estilo": "primario" },
+        { "texto": "Ler a pauta completa", "href": "pauta.html", "estilo": "secundario" }
+      ]
+    },
+    {
+      "tipo": "stats",
+      "titulo": "Os números que sustentam a pauta",
+      "descricao": "Recorte 2018–2025, com fonte primária nos ACTs e nas séries oficiais do IBGE.",
+      "itens": [
+        { "valor": "+43,97%", "rotulo": "Reajustes acumulados nos ACTs (2018–2025)" },
+        { "valor": "+70,40%", "rotulo": "Alta dos preços de Alimentação e Bebidas no período" },
+        { "valor": "-26,43 p.p.", "rotulo": "Defasagem acumulada frente aos alimentos", "destaque": true },
+        { "valor": "-15,5%", "rotulo": "Queda aproximada do poder de compra de alimentos" },
+        { "valor": "5 de 8", "rotulo": "Anos com perda real frente aos alimentos" },
+        { "valor": "0%", "rotulo": "Reajuste na data-base de 2020" }
+      ],
+      "rodape": "Fonte: ACTs SERPRO (Portal da Transparência) e IBGE/SNIPC via IPEA Data. Metodologia detalhada na página do estudo."
+    },
+    {
+      "tipo": "cards",
+      "titulo": "Por onde começar",
+      "itens": [
+        {
+          "icone": "📉",
+          "titulo": "O estudo salarial",
+          "texto": "Ano a ano: quanto foi o reajuste do ACT, quanto subiu a comida e quanto sobrou (ou faltou) no bolso.",
+          "href": "estudo.html",
+          "cta": "Ver dados e gráficos"
+        },
+        {
+          "icone": "⚖️",
+          "titulo": "O que os novatos perderam",
+          "texto": "Anuênio, licença-prêmio, GFE congelada, plano de carreira achatado: o mapa das diferenças entre quem entrou antes e depois.",
+          "href": "direitos.html",
+          "cta": "Ver comparativo"
+        },
+        {
+          "icone": "✊",
+          "titulo": "A pauta da campanha",
+          "texto": "Sete eixos de reivindicação construídos coletivamente para o próximo ACT.",
+          "href": "pauta.html",
+          "cta": "Ler a pauta"
+        },
+        {
+          "icone": "📅",
+          "titulo": "Assembleias e prazos",
+          "texto": "Calendário de assembleias, rodadas de negociação e datas-limite da campanha.",
+          "href": "assembleias.html",
+          "cta": "Ver agenda"
+        },
+        {
+          "icone": "🔗",
+          "titulo": "Grupos e links úteis",
+          "texto": "Entidades sindicais, grupos de conversa, documentos oficiais e ACTs anteriores.",
+          "href": "links.html",
+          "cta": "Acessar links"
+        },
+        {
+          "icone": "📨",
+          "titulo": "Receber informes",
+          "texto": "Cadastre seu e-mail e receba convocações de assembleia, boletins e atualizações da negociação.",
+          "href": "participe.html",
+          "cta": "Cadastrar"
+        }
+      ]
+    },
+    {
+      "tipo": "richtext",
+      "titulo": "Por que uma campanha puxada pelos novatos",
+      "paragrafos": [
+        "A turma do concurso de 2023 chegou ao SERPRO num contrato de trabalho diferente do de quem entrou antes: sem anuênio, sem licença-prêmio, com gratificações congeladas e com um plano de carreira cuja progressão é lenta e pouco previsível.",
+        "Ao mesmo tempo, herdamos uma defasagem salarial construída ao longo de anos — especialmente no biênio 2020–2021, quando houve um ano **sem nenhum reajuste** e a inflação dos alimentos disparou.",
+        "Esta campanha não opõe novos e antigos. Ela defende que **ninguém perca** e que as diferenças criadas por cláusulas de exceção sejam corrigidas. Quem faz o mesmo trabalho precisa ter os mesmos direitos."
+      ],
+      "bullets": [
+        "Somos parte significativa da força de trabalho e da entrega técnica da empresa.",
+        "Somos os mais afetados pela rotatividade e pela perda de talentos para o mercado.",
+        "Somos os que menos aparecem nas negociações históricas — e isso muda quando a gente se organiza."
+      ]
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Nossa força está na unidade",
+      "texto": "Cadastre-se, entre no grupo e compartilhe a pauta com a sua equipe.",
+      "acoes": [
+        { "texto": "Quero receber informes", "href": "participe.html", "estilo": "primario" },
+        { "texto": "Entrar nos grupos", "href": "links.html", "estilo": "secundario" }
+      ]
+    }
+  ]
+}

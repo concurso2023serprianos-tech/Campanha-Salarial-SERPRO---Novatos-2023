@@ -1,0 +1,142 @@
+{
+  "_comentario": "Estudo de reajustes x inflação. Para atualizar um ano, edite a linha correspondente na tabela e os números do bloco 'stats'.",
+
+  "titulo": "Estudo: reajustes x inflação",
+  "blocos": [
+    {
+      "tipo": "hero",
+      "chapeu": "Recorte 2018–2026 • fonte primária",
+      "titulo": "Quanto do nosso salário a comida levou",
+      "texto": "Comparação entre os reajustes pactuados nos ACTs do SERPRO, a inflação do grupo **Alimentação e Bebidas** (IBGE/SNIPC) e a evolução da remuneração da diretoria. Todos os percentuais vêm dos acordos assinados e das séries oficiais."
+    },
+    {
+      "tipo": "stats",
+      "titulo": "Indicadores-chave (2018–2025)",
+      "itens": [
+        { "valor": "+43,97%", "rotulo": "Reajuste salarial acumulado (ACTs)" },
+        { "valor": "+70,40%", "rotulo": "Inflação acumulada de alimentos" },
+        { "valor": "-26,43 p.p.", "rotulo": "Déficit real acumulado", "destaque": true },
+        { "valor": "5 de 8", "rotulo": "Anos com perda real frente aos alimentos" },
+        { "valor": "2020", "rotulo": "Único ano sem reajuste na data-base" },
+        { "valor": "-14,11 p.p.", "rotulo": "Maior perda real isolada (2020)", "destaque": true },
+        { "valor": "+3,85 p.p.", "rotulo": "Melhor resultado real (2023)" },
+        { "valor": "5,1096%", "rotulo": "Reajuste já contratado para mai/2026" }
+      ]
+    },
+    {
+      "tipo": "table",
+      "titulo": "Série anual de reajustes e resultado real",
+      "descricao": "Nos ACTs de 2023 em diante, o percentual pactuado **já inclui** o 1% de ganho real — os valores são totais nominais fechados.",
+      "colunas": ["Ano", "Reajuste ACT %", "IPCA Alimentação %", "Resultado real", "IPCA geral %"],
+      "alinhamento": ["left", "right", "right", "left", "right"],
+      "linhas": [
+        { "celulas": ["2018", "1,01", "4,03", "🔴 -3,02 p.p.", "3,75"] },
+        { "celulas": ["2019", "3,55", "6,36", "🔴 -2,81 p.p.", "4,31"] },
+        { "celulas": ["2020", "**0,00**", "**14,11**", "🔴 **-14,11 p.p.**", "4,52"], "destaque": true },
+        { "celulas": ["2021", "5,31", "7,93", "🔴 -2,62 p.p.", "10,06"] },
+        { "celulas": ["2022", "12,47", "11,63", "🟢 +0,84 p.p.", "5,79"] },
+        { "celulas": ["2023", "4,87", "1,02*", "🟢 +3,85 p.p.", "4,62"] },
+        { "celulas": ["2024", "4,23", "7,70", "🔴 -3,47 p.p.", "4,83"] },
+        { "celulas": ["2025", "**6,32**", "2,94", "🟢 **+3,38 p.p.**", "4,26"] },
+        { "celulas": ["2026", "5,1096 (contratado)", "—", "⚪ ano em curso", "—"] }
+      ],
+      "rodape": "*2023: o IPCA de Alimentação e Bebidas de 1,02% é o valor oficial IBGE/SNIPC. Reflete forte desaceleração pós-2022, com deflação em vários meses; Alimentação no Domicílio encerrou o ano em -0,52%."
+    },
+    {
+      "tipo": "galeria",
+      "titulo": "Gráficos",
+      "itens": [
+        { "arquivo": "grafico_1_reajustes_acts.png", "titulo": "Reajustes pactuados nos ACTs", "legenda": "Percentual de reajuste por ano, conforme cláusula de correção salarial de cada acordo." },
+        { "arquivo": "grafico_2_inflacao_alimentos.png", "titulo": "Inflação de alimentos x IPCA geral", "legenda": "Grupo Alimentação e Bebidas comparado ao índice cheio." },
+        { "arquivo": "grafico_3_ganho_perda_real.png", "titulo": "Ganho e perda real por ano", "legenda": "Diferença entre o reajuste do ACT e a inflação de alimentos, em pontos percentuais." },
+        { "arquivo": "grafico_4_evolucao_acumulada.png", "titulo": "Evolução acumulada", "legenda": "Índice salarial x índice de preços de alimentos, base 2017 = 100." },
+        { "arquivo": "grafico_5_diferenca_acumulada.png", "titulo": "Diferença acumulada", "legenda": "Abertura progressiva entre salário e custo alimentar." },
+        { "arquivo": "grafico_6_cestas_basicas_proxy.png", "titulo": "Poder de compra em cestas básicas", "legenda": "Quantas cestas básicas o salário de referência compra, ano a ano." }
+      ]
+    },
+    {
+      "tipo": "richtext",
+      "titulo": "Período crítico: 2020–2021",
+      "paragrafos": [
+        "O biênio 2020–2021 concentrou o maior dano ao poder de compra."
+      ],
+      "bullets": [
+        "**2020:** zero de reajuste + inflação alimentar de 14,11% = perda real de 14,11 p.p.",
+        "**2021:** reajuste de 5,31% (70% do INPC), ainda abaixo da inflação de alimentos = 2,62 p.p. adicionais de perda.",
+        "**Total do biênio:** 16,74 p.p. de perda real frente ao custo alimentar, no auge da pandemia."
+      ]
+    },
+    {
+      "tipo": "richtext",
+      "titulo": "Recomposição parcial (2022–2025)",
+      "paragrafos": [
+        "A partir de 2022 os ACTs passaram a garantir **100% do INPC** como piso, e de 2023 em diante o texto incluiu **1% de ganho real** explícito."
+      ],
+      "bullets": [
+        "Ganho real positivo em 2022 (+0,84 p.p.), 2023 (+3,85 p.p.) e 2025 (+3,38 p.p.).",
+        "Perda real em 2024 (-3,47 p.p.), com o retorno da inflação alimentar a 7,70%.",
+        "Acumulado 2022–2025: +4,59 p.p. — pouco mais de **um quarto** dos 16,74 p.p. perdidos em 2020–2021."
+      ]
+    },
+    {
+      "tipo": "table",
+      "titulo": "Empregados x diretoria",
+      "colunas": ["Período", "Empregados (nominal acumulado)", "Diretoria (nominal acumulado)"],
+      "alinhamento": ["left", "right", "right"],
+      "linhas": [
+        { "celulas": ["2020 → 2025", "+37,65%", "+33,35%"] },
+        { "celulas": ["2023 → 2025", "+10,82%", "**+49,04%**"], "destaque": true }
+      ],
+      "rodape": "Nos dois anos mais recentes, a remuneração da diretoria cresceu cerca de 4,5× mais que os reajustes dos empregados. O recorte iniciado em 2020 favorece os empregados justamente porque 2020 já é um piso deprimido."
+    },
+    {
+      "tipo": "richtext",
+      "titulo": "Conclusões que sustentam a pauta",
+      "bullets": [
+        "A regra pactuada (**INPC + 1%**) só entrega ganho real quando a inflação alimentar fica próxima ou abaixo do INPC — o que não é a regra, é a exceção.",
+        "A defasagem de 26,43 pontos frente aos alimentos é **estrutural**: em 2025 o salário indexado estava cerca de 15,5% abaixo do custo alimentar acumulado desde 2017.",
+        "Mantido o padrão de 1% de ganho real ao ano, seriam necessários cerca de **17 anos** para zerar a defasagem.",
+        "Daí a reivindicação de um **mecanismo específico de recomposição**, somado ao reajuste diferenciado do tíquete pelo custo real da alimentação."
+      ]
+    },
+    {
+      "tipo": "table",
+      "titulo": "Histórico recente dos Acordos Coletivos",
+      "descricao": "Como a regra de reajuste foi mudando ciclo a ciclo. Confirme o texto integral de cada cláusula no documento original antes de citar em negociação.",
+      "colunas": ["Ciclo", "Regra pactuada", "Reajuste aplicado", "Observação"],
+      "alinhamento": ["left", "left", "right", "left"],
+      "linhas": [
+        { "celulas": ["ACT 2017/2019", "Reajuste na data-base de maio", "1,01% (2018)", "Ciclo de dois anos; reajuste muito abaixo da inflação"] },
+        { "celulas": ["ACT 2019/2020", "Reajuste na data-base de maio", "3,55% (2019)", "Última correção antes do ano sem reajuste"] },
+        { "celulas": ["ACT 2020/2022", "70% do INPC acumulado de mai/2020 a abr/2021", "0,00% (2020) e 5,31% (2021)", "**Ano de 2020 sem reajuste na data-base**"], "destaque": true },
+        { "celulas": ["ACT 2022/2023", "100% do INPC acumulado de mai/2021 a abr/2022", "12,47%", "Retomada do INPC integral como piso"] },
+        { "celulas": ["ACT 2023/2024", "100% do INPC + 1% de ganho real", "4,87%", "Primeira inclusão explícita de ganho real"] },
+        { "celulas": ["ACT 2024/2025", "100% do INPC + 1% de ganho real", "4,23%", "Inflação de alimentos voltou a 7,70% no ano"] },
+        { "celulas": ["ACT 2025/2027", "100% do INPC + 1% de ganho real, em duas parcelas anuais", "6,32% (mai/2025) e 5,1096% (mai/2026)", "Cláusula 54 — ciclo já integralmente contratado"] }
+      ],
+      "rodape": "Os documentos completos estão no Portal da Transparência do SERPRO. A regra corrente (INPC + 1%) mantém o poder de compra médio, mas não recompõe a defasagem acumulada em 2018–2021."
+    },
+    {
+      "tipo": "richtext",
+      "titulo": "Metodologia e fontes",
+      "paragrafos": [
+        "Os percentuais de reajuste foram extraídos diretamente das cláusulas de correção salarial dos ACTs publicados no Portal da Transparência do SERPRO. As séries de IPCA geral, IPCA do grupo Alimentação e Bebidas e IPCA de Alimentação no Domicílio vêm do IBGE/SNIPC, consultadas via IPEA Data.",
+        "O índice salarial usa base 2017 = 100 e aplica os reajustes na data-base de cada ciclo. O resultado real de cada ano é a diferença, em pontos percentuais, entre o reajuste do ACT e a inflação de alimentos do mesmo ano civil.",
+        "A série anual oficial permanece fechada em 2025 nesta coleta. O percentual de 2026 (5,1096%) já está contratado na Cláusula 54 do ACT 2025/2027, mas não há taxa anual de inflação de 2026 para apurar ganho ou perda real."
+      ],
+      "links": [
+        { "texto": "Portal da Transparência do SERPRO — ACTs", "href": "https://www.transparencia.serpro.gov.br/acesso-a-informacao/servidores/acordo-coletivo-de-trabalho-act" },
+        { "texto": "IPEA Data — séries IBGE/SNIPC", "href": "http://www.ipeadata.gov.br/" }
+      ]
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Use estes dados",
+      "texto": "Todo o material é livre para reprodução com indicação da fonte. Leve para sua equipe, para a assembleia e para a mesa de negociação.",
+      "compartilhar": true,
+      "acoes": [
+        { "texto": "Ver como isso vira pauta", "href": "pauta.html", "estilo": "primario" }
+      ]
+    }
+  ]
+}

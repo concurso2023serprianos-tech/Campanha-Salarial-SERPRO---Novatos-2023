@@ -1,0 +1,65 @@
+{
+  "_comentario": "Agenda da campanha. Eventos com data anterior a hoje vão automaticamente para 'Já aconteceu'. Formato da data: AAAA-MM-DD.",
+
+  "titulo": "Assembleias e agenda",
+  "blocos": [
+    {
+      "tipo": "hero",
+      "chapeu": "Calendário da campanha",
+      "titulo": "Nada se decide sem assembleia",
+      "texto": "Aqui ficam as convocações de assembleia, as rodadas de negociação e os prazos da campanha. Cadastre seu e-mail para ser avisado com antecedência.",
+      "acoes": [
+        { "texto": "Receber convocações", "href": "participe.html", "estilo": "primario" }
+      ]
+    },
+    {
+      "tipo": "agenda",
+      "titulo": "Próximos eventos",
+      "itens": [
+        {
+          "data": "2026-10-15",
+          "hora": "18h00",
+          "titulo": "Assembleia geral — aprovação da pauta de reivindicações",
+          "local": "Online (link enviado aos cadastrados) + unidades regionais",
+          "descricao": "Debate e votação dos sete eixos da pauta. Emendas podem ser enviadas até 48h antes.",
+          "tipo": "assembleia",
+          "link": { "texto": "Enviar emenda", "href": "participe.html" }
+        },
+        {
+          "data": "2026-11-05",
+          "hora": "10h00",
+          "titulo": "Entrega da pauta à direção do SERPRO",
+          "local": "Sede da empresa",
+          "descricao": "Protocolo formal da pauta aprovada em assembleia e abertura do calendário de negociação.",
+          "tipo": "negociacao"
+        },
+        {
+          "data": "2026-11-20",
+          "hora": "14h00",
+          "titulo": "1ª rodada de negociação",
+          "local": "Mesa nacional",
+          "descricao": "Apresentação da pauta e definição do cronograma de tratativas.",
+          "tipo": "negociacao"
+        },
+        {
+          "data": "2027-04-30",
+          "titulo": "Data-base do ACT",
+          "local": "—",
+          "descricao": "Encerramento do ciclo vigente. O novo reajuste tem efeitos a partir de 1º de maio.",
+          "tipo": "prazo"
+        }
+      ],
+      "rodape": "Datas sujeitas a alteração. Os eventos deste calendário são propostos pela organização da campanha e devem ser confirmados com as entidades sindicais representativas."
+    },
+    {
+      "tipo": "richtext",
+      "titulo": "Como participar de uma assembleia",
+      "bullets": [
+        "Confira na convocação se a assembleia é presencial, online ou híbrida.",
+        "Tenha em mãos sua matrícula — em algumas votações ela é exigida para conferência.",
+        "Leve suas propostas por escrito: emendas apresentadas de forma objetiva têm mais chance de aprovação.",
+        "Se não puder participar, acompanhe a ata e os informes publicados nesta página."
+      ]
+    }
+  ]
+}

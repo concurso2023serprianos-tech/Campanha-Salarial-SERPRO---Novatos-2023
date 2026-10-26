@@ -1,0 +1,65 @@
+{
+  "_comentario": "Configurações globais do site. Edite aqui nome, cores, menu, rodapé, contatos e o formulário de cadastro.",
+
+  "nome": "Campanha Salarial SERPRO - Novatos 2023",
+  "subtitulo": "Movimento dos empregados — foco na turma do concurso de 2023",
+  "descricao": "Portal central de informações da campanha salarial (ACT) dos empregados do SERPRO: dados, direitos, pauta, assembleias e mobilização.",
+  "url": "https://SEU-USUARIO.github.io/campanha-serpro/",
+  "idioma": "pt-BR",
+  "atualizadoEm": "2026-09-30",
+
+  "tema": {
+    "corPrimaria": "#0b5d3b",
+    "corSecundaria": "#f2b705",
+    "corDestaque": "#c0392b",
+    "corFundo": "#0f1115",
+    "corTexto": "#e9edf2"
+  },
+
+  "avisoTopo": {
+    "ativo": true,
+    "texto": "📅 Assembleia geral de aprovação da pauta — consulte a agenda e participe.",
+    "link": "assembleias.html",
+    "textoLink": "Ver agenda"
+  },
+
+  "menu": [
+    { "titulo": "Início", "href": "index.html" },
+    { "titulo": "Pauta 2027", "href": "pauta.html" },
+    { "titulo": "O que os novatos perderam", "href": "direitos.html" },
+    { "titulo": "Estudo salarial", "href": "estudo.html" },
+    { "titulo": "Assembleias", "href": "assembleias.html" },
+    { "titulo": "Informes", "href": "informes.html" },
+    { "titulo": "Links e grupos", "href": "links.html" },
+    { "titulo": "Dúvidas", "href": "faq.html" },
+    { "titulo": "Participe", "href": "participe.html", "destaque": true }
+  ],
+
+  "cadastro": {
+    "_comentario": "Escolha o provedor: 'googleforms' (recomendado, sem backend), 'formspree' ou 'mailto'.",
+    "provedor": "googleforms",
+    "googleFormsEmbedUrl": "https://docs.google.com/forms/d/e/SEU_ID_DO_FORMULARIO/viewform?embedded=true",
+    "googleFormsLinkDireto": "https://forms.gle/SEU_LINK_CURTO",
+    "formspreeEndpoint": "https://formspree.io/f/SEU_ID",
+    "emailContato": "campanha.serpro@exemplo.org",
+    "politicaDados": "Os dados informados são usados exclusivamente para envio de informes da campanha salarial. Você pode pedir a remoção a qualquer momento respondendo a qualquer informe."
+  },
+
+  "contatos": [
+    { "rotulo": "E-mail da campanha", "valor": "campanha.serpro@exemplo.org", "href": "mailto:campanha.serpro@exemplo.org", "icone": "✉️" },
+    { "rotulo": "Grupo no WhatsApp (novatos 2023)", "valor": "Entrar no grupo", "href": "https://chat.whatsapp.com/SEU_CONVITE", "icone": "💬" },
+    { "rotulo": "Canal no Telegram", "valor": "t.me/SEU_CANAL", "href": "https://t.me/SEU_CANAL", "icone": "📣" }
+  ],
+
+  "redes": [
+    { "rotulo": "Instagram", "href": "https://instagram.com/SEU_PERFIL" },
+    { "rotulo": "Telegram", "href": "https://t.me/SEU_CANAL" },
+    { "rotulo": "WhatsApp", "href": "https://chat.whatsapp.com/SEU_CONVITE" }
+  ],
+
+  "rodape": {
+    "texto": "Site mantido por empregados do SERPRO. Não é canal oficial da empresa nem substitui a comunicação sindical formal. Os dados apresentados têm fonte primária indicada em cada seção.",
+    "creditos": "Estudo de reajustes x inflação elaborado a partir dos ACTs publicados no Portal da Transparência do SERPRO e das séries IBGE/SNIPC (IPEA Data).",
+    "licenca": "Conteúdo livre para reprodução com indicação da fonte."
+  }
+}
